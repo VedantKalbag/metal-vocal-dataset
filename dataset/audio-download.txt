@@ -1,0 +1,8 @@
+Download and Install youtube-dl as shown in the REFERENCE link, and then run the command shown below in your command line:
+
+youtube-dl -ciwx --audio-format wav --playlist-start 1  https://www.youtube.com/playlist\?list\=PLnkRJFUtBDzWOEnVOiWTVxGOWD70LDwtC --download-archive downloaded.txt --no-post-overwrites -o "%(id)s.%(ext)s"
+
+
+REFERENCE: https://github.com/ytdl-org/youtube-dl/blob/master/README.md
+
+IF YOU ARE UNABLE TO DOWNLOAD THE AUDIO FOR THE DATASET, PLEASE CONTACT ME AT: vedant.kalbag@gatech.edu

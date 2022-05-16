@@ -1,0 +1,3 @@
+**/*.wav
+**/*.npy
+benchmark-results/pretrained_models
